@@ -1,0 +1,62 @@
+#main-div {
+  height: 100vh;
+  text-align: center;
+}
+
+#modal {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 15px 0 35px 0;
+  background-color: #777777;
+  border-radius: 20px;
+  box-shadow: 20px 20px 10px 6px #ccc;
+}
+
+.modal-toggle, #cat {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+
+#pug {
+  height: auto;
+  width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#modal-btn {
+  margin-bottom: 50px;
+  padding: 15px 30px 15px 30px;
+}
+
+@media screen and (max-width: 840px){
+  #pug {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 730px){
+  #modal-btn {
+    display: block;
+    width: 100%;
+    padding: 20px 0 20px 0;
+  }
+
+  #modal {
+    width: 80%;
+  }
+
+  #cat {
+    max-width: 100%;
+    display: block;
+  }
+
+  #pug {
+    display: none;
+  }
+}
