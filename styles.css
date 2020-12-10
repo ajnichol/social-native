@@ -1,3 +1,11 @@
+.modal-toggle, #cat {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+
 #main-div {
   height: 100vh;
   text-align: center;
@@ -13,14 +21,6 @@
   box-shadow: 20px 20px 10px 6px #ccc;
 }
 
-.modal-toggle, #cat {
-  display: none;
-}
-
-.visible {
-  display: block;
-}
-
 #pug {
   height: auto;
   width: 400px;
@@ -34,13 +34,17 @@
   padding: 15px 30px 15px 30px;
 }
 
-@media screen and (max-width: 840px){
+@media screen and (max-width: 840px) {
+  #modal {
+    width: 70%;
+  }
+  
   #pug {
     max-width: 100%;
   }
 }
 
-@media screen and (max-width: 730px){
+@media screen and (max-width: 730px) {
   #modal-btn {
     display: block;
     width: 100%;
