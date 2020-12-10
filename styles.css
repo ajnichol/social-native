@@ -19,6 +19,7 @@
   background-color: #777777;
   border-radius: 20px;
   box-shadow: 20px 20px 10px 6px #ccc;
+  border: 2px solid #555555;
 }
 
 #pug {
@@ -38,7 +39,7 @@
   #modal {
     width: 70%;
   }
-  
+
   #pug {
     max-width: 100%;
   }
